@@ -7,7 +7,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 
-@Client.on_message(command("start") & filters.private & ~filters.edited)
+@Client.on_edited_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/bb7e6f59b3db29b215446.jpg",
