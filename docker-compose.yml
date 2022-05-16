@@ -1,0 +1,10 @@
+version: "2.0"
+services:
+  worker:
+    build: .
+    environment:
+      API_ID: $API_ID
+      API_HASH: $API_HASH
+      SESSION_NAME: $SESSION_NAME
+      SUDO_USERS: $SUDO_USERS
+      DURATION_LIMIT: $DURATION_LIMIT
