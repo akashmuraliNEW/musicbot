@@ -1,14 +1,14 @@
 git+https://github.com/adityacheats/downloader@master
-pyrogram
+pyrogram==1.4.16
 TgCrypto
 py-tgcalls
 python-dotenv
-youtube_search_python
+git+https://github.com/mradityahalder/kaal-search-python@main
 requests
 aiohttp
 aiofiles
 asyncio
-youtube_search
+git+https://github.com/mradityahalder/kaal_search@master
 search_engine_parser
 ffmpeg-python
 ffmpeg
