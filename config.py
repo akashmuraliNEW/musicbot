@@ -5,7 +5,7 @@ load_dotenv()
 que = {}
 admins = {}
 
-API_ID = int(getenv("API_ID", "4110592"))
+API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH", "aa7c849566922168031b95212860ede0")
 BOT_TOKEN = getenv("BOT_TOKEN","2081903348:AAEa35zDX3PFCpdfMl6lNnP3M0lBAds0vpo")
 BOT_NAME = getenv("BOT_NAME","eSportMusicX🚩")
